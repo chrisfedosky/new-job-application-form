@@ -1,0 +1,28 @@
+input:focus, textarea:focus {
+    border-color: yellow;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border-color: red;
+}
+
+input:valid, select:valid, textarea:valid{
+    border-color: green;
+}
+
+button:hover {
+    background-color: blue;
+}
+.radio-group input[type="radio"]:checked {
+    border-color: blueviolet;
+    background-color: aliceblue;
+    box-shadow: 5px 5px coral;
+}
+/* not working ye #18 user stories */
+input[type="radio"]:checked + label {
+    color: limegreen;
+}
+
+input:first-of-type {
+    color:rgb(139, 51, 0)
+}
